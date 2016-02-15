@@ -1,0 +1,66 @@
+body{
+	background-color: white;
+}
+.Particulars1 {
+	color:navy;
+	font-weight: bold;
+	font-size: 120%;	
+	position: absolute;
+	top:50px;
+	left: 250px;
+}
+
+.Particulars2 {
+	color:navy;
+	font-weight: bold;
+	font-size: 120%;	
+	position: absolute;
+	top:70px;
+	left: 250px;
+}
+
+.Particulars3 {
+	color:navy;
+	font-weight: bold;
+	font-size: 120%;	
+	position: absolute;
+	top:90px;
+	left:250px;
+}	
+
+.Overview{
+	color:navy;
+	font-weight:bold;
+	font-size:120%;
+	position: absolute;
+	top:110px;
+	left:250px;
+}	
+
+
+.TitleBackground {
+	width:2000px;
+	height:300px; 
+	position: absolute;
+	top:10px;	  
+	
+}
+
+.MyPhoto {
+	width:180px;
+	height:180px;
+	position: absolute;
+	top:60px;
+	left:50px;
+	border:1px solid white;
+}
+
+.panel-success{
+	position: absolute;
+	top:400px;
+	width:1000px;
+	height:500px;
+}
+
+
+	 
