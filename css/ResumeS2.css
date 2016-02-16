@@ -96,7 +96,7 @@ li {
 }
 
 .background {
-  background-image: url(../img/Background.JPG);
+  background-image: url(../img/background.jpg);
   background-size: cover;
   background-position: 50% 80%;
 }
