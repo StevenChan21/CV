@@ -1,0 +1,113 @@
+body{
+	background-color: white;
+}
+.Particulars1 {
+	color:navy;
+	font-weight: bold;
+	font-size: 120%;	
+	/*position: absolute;*/
+	/*top:50px;*/
+	/*left: 250px;*/
+}
+
+
+.Statement{
+	color:navy;
+	font-size:90%;
+	font-weight:bold;
+	font-style: italic;
+	/*position: absolute;*/
+	/*top:160px;*/
+	/*left:250px;*/
+}
+
+
+/*.TitleBackground {
+	width:2000px;
+	height:300px; 
+	position: absolute;
+	top:10px;	  
+	
+}*/
+
+.MyPhoto {
+	width:180px;
+	height:180px;
+	/*position: absolute;*/
+	/*top:60px;*/
+	/*margin-left:100px;*/
+	border:1px solid white;
+	margin-top: 20px;
+	margin-bottom:20px;
+}
+
+/*.panel-success{
+	position: absolute;
+	top:400px;
+	width:1000px;
+	height:500px;
+
+}*/
+
+.panel-title{
+	font-size: 160%;
+}
+
+/*.well{
+	position: absolute;
+	top:400px;
+	height:300px;
+	width:280px;
+	left:70px;
+	color: grey;
+	
+}*/
+
+h2{
+	font-size:22px;
+	font-weight: bold;
+	
+}
+
+.side_links{
+	color:green;
+}
+
+#second_panel{
+	position: absolute;
+	top:1000px;
+	width:1000px;
+	height:500px;
+}
+
+.company_title{
+	text-decoration: underline;
+
+}
+
+h4{
+	font-size:110%;
+	margin:2px;
+	font-weight:bold;
+	font-family:"Arial";
+}
+
+.ul_title{
+	font-size:100%;
+	font-weight:bold;
+}
+
+li{
+	font-weight:normal;
+}
+
+	 
+.background{
+	background-image:url(../img/Background.JPG);
+	background-size:cover;
+	background-position: 50% 80%;
+}
+
+.background + .container{
+	margin-top: 20px;
+}	

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Resume</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/ResumeS2.css">
+</head>
+<body>
+	<div class="container"></div>
+		<div class="row">
+			<div class="col-md-1 col-xs-6">
+			<img src="img/Background.jpg" class="TitleBackground" alt="Title Background">
+			<img src="img/ResumePhoto.jpg" class="MyPhoto" alt="Resume Photo">
+
+			</div>
+			<div class="col-md-11 col-xs-6">
+			<h3 class="Particulars1">Name: CHAN HUIZHENG, STEVEN</h3>
+			<h3 class="Particulars2">Address: BLK 53 CHAI CHEE STREET, #11-350 SINGAPORE 460053</h3>
+			<h3 class="Particulars3">Job Title: SENIOR KNOWLEDGE ANALYST</h3>
+			<h3 class="Overview">Overview:</h3>
+			<p class="Statement">A diligent, responsible and determine person, who is able to take challenges and stay competitive at all times with effort to bring quality work and uphold the reputation of the organization. <br>I have very strong interest in programming languages and would like to take a career switch into a full time software developer.</p>
+			</div>
+			
+					<div class="col-md-3">
+						<div class="well">
+							<h2>Quick Directory</h2>
+							<a class="side_links" href="#WorkExperience">Work Experience</a>
+							</br>
+							<a class="side_links" href="#Education">Education</a>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="panel panel-success">
+					 		<div class="panel-heading">
+					    		<h3 class="panel-title"id="WorkExperience">Work Experience</h3>
+					  		</div>
+					  		<div class="panel-body">
+					    		<h4 class="company_title">WDS, A Xerox Company (Current Company)</h4>
+					    		<h4>Senior Knowledge Analyst (Current Position)</h4>
+					    		<h4>Started 1st Dec 2008</h4>
+					    		</br>
+					    		<ul class="ul_title">Job Scope:
+
+					    		</ul>
+					    	</div>
+					    </div>
+						<div class="panel panel-success" id="second_panel">
+							<div class="panel-heading">
+							    <h3 class="panel-title" id="Education">Education</h3>
+							</div>
+							<div class="panel-body">
+							    Panel content
+							</div>
+						</div>
+					</div>
+
+
+		</div>
+	</div>
+
+
+</body>
+
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</html>
