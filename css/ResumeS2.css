@@ -57,12 +57,12 @@ body {
 }
 
 /*.well{
-	position: absolute;
-	top:400px;
-	height:300px;
-	width:280px;
-	left:70px;
-	color: grey;
+	// position: absolute;
+	// top:400px;
+	min-height:600px;
+	// width:280px;
+	// left:70px;
+	// color: grey;
 	
 }*/
 h2 {
@@ -117,6 +117,47 @@ li {
   /*position: absolute;*/
   /*top:60px;*/
   /*margin-left:100px;*/
+  border: 1px solid green;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Pen {
+  width: 413.5px;
+  height: 78.5px;
+  /*position: absolute;*/
+  /*top:60px;*/
+  /*margin-left:100px;*/
+  border: 1px solid green;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 700px;
+  height: 526.25px;
+  border: 1px solid green;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.generalstyle {
+  border: 1px solid green;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bcover {
+  width: 295.25px;
+  height: 620px;
+  border: 1px solid green;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.leisure {
+  width: 800px;
+  height: 447px;
   border: 1px solid green;
   margin-top: 20px;
   margin-bottom: 20px;
