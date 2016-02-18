@@ -2,7 +2,7 @@ body{
 	background-color: white;
 }
 .Particulars1 {
-	color:navy;
+	color:green;
 	font-weight: bold;
 	font-size: 120%;	
 	/*position: absolute;*/
@@ -12,7 +12,7 @@ body{
 
 
 .Statement{
-	color:navy;
+	color:black;
 	font-size:90%;
 	font-weight:bold;
 	font-style: italic;
@@ -110,63 +110,42 @@ li{
 
 	 
 .background{
-	background-image:url(../img/background.jpg);
+	// background-image:url(../img/background.jpg);
+	background-image:url(http://wallpapers-junction.com/Special%20Wallpapers/Background%20Wallpapers/Images/Green_Wave_Background_Wallpapers.jpg);
 	background-size:cover;
-	background-position: 50% 80%;
+	background-position: 100% 70%;
+	position: relative;
+	&:before{
+		content:"";
+		position:absolute;
+		display:block;
+		width:100%;
+		height:100%;
+		background:#fff;
+		top:0;
+		opacity:0.5;
+	}
 }
 
 .background + .container{
 	margin-top: 20px;
 }	
 
-.Luggage {
-	width:320px;
-	height:240px;
-	/*position: absolute;*/
-	/*top:60px;*/
-	/*margin-left:100px;*/
-	border:1px solid green;
-	margin-top: 20px;
-	margin-bottom:20px;
-}
-
-.Pen {
-	width:413.5px;
-	height:78.5px;
-	/*position: absolute;*/
-	/*top:60px;*/
-	/*margin-left:100px;*/
-	border:1px solid green;
-	margin-top: 20px;
-	margin-bottom:20px;
-}
-
-.card {
-	width:700px;
-	height:526.25px;
-	border:1px solid green;
-	margin-top: 20px;
-	margin-bottom:20px;
-}
-
 .generalstyle {
 	border:1px solid green;
 	margin-top:20px;
 	margin-bottom:20px;
+	max-width:100%;
+	height:auto;
+	top:0;
 }
 
-.bcover {
-	width:295.25px;
-	height:620px;
-	border:1px solid green;
-	margin-top:20px;
-	margin-bottom:20px; 
+hr{
+	// line-height: 10em;
+	// font-size: 18pt;
+	border: 3px solid green;
 }
 
-.leisure {
-	width:800px;
-	height:447px;
-	border:1px solid green;
-	margin-top:20px;
-	margin-bottom:20px; 
+.affix{
+	top:10px;
 }
