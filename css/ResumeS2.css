@@ -23,10 +23,10 @@ body {
 
 /*.TitleBackground {
 	width:2000px;
-	height:300px; 
+	height:300px;
 	position: absolute;
-	top:10px;	  
-	
+	top:10px;
+
 }*/
 .MyPhoto {
   width: 180px;
@@ -63,7 +63,7 @@ body {
 	// width:280px;
 	// left:70px;
 	// color: grey;
-	
+
 }*/
 h2 {
   font-size: 22px;
@@ -102,9 +102,9 @@ li {
 }
 
 .background {
-  background-image: url(http://wallpapers-junction.com/Special%20Wallpapers/Background%20Wallpapers/Images/Green_Wave_Background_Wallpapers.jpg);
+  background-image: url(http://www.4kwallpaperhd.com/wp-content/uploads/2018/05/Green-Forest-Background-wallpaper-for-desktop.jpg);
   background-size: cover;
-  background-position: 100% 70%;
+  background-position: 100% 80%;
   position: relative;
 }
 
@@ -116,7 +116,7 @@ li {
   height: 100%;
   background: #fff;
   top: 0;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .background + .container {
